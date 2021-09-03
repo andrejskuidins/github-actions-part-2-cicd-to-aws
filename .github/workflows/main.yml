@@ -4,7 +4,7 @@ name: ci-cd-pipeline-to-aws
 env:
   EB_PACKAGE_S3_BUCKET_NAME: "adv-it-flask-application-packages-aku"
   EB_APPLICATION_NAME: "myflask"
-  EB_ENVIRON_NAME: "Myflask-env"
+  EB_ENVIRON_NAME: "Myflask-env-2"
   DEPLOY_PACKAGE_NAME: "flask_app${{ github.sha }}.zip"
   AWS_REGION_NAME: "eu-north-1"
 # Controls when the workflow will run
